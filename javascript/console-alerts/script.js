@@ -12,3 +12,8 @@
 // alert("Mensagem");
 // alert(valor);
 
+// let valor = prompt("Qual é o seu nome");
+// alert(valor);
+
+// alert("Olá, " + prompt("Qual é o seu nome?"));
+
