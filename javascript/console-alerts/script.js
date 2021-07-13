@@ -6,3 +6,9 @@
 // console.warn(2);
 // console.error(3);
 // console.info(4);
+
+// let valor = "Bruno";
+// alert(1);
+// alert("Mensagem");
+// alert(valor);
+
