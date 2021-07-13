@@ -1,0 +1,39 @@
+form, input {
+    border: 1px solid red;
+    width: 50%;
+}
+
+#item2 {
+    /* display: none; */
+}
+
+#item3 {
+    /* visibility: hidden; */
+}
+
+li {
+    /* display: inline; */
+    /* float: right;
+    width: 100px; */
+}
+
+.container {
+    border: 1px solid green;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.box {
+    border: 1px solid blue;
+    /* display: inline;
+    float: right; */
+    width: 40px;
+    overflow: none; /* scroll, auto, none, hidden */
+}
+
+.primeiro {
+    /* position: relative;
+    top: 50px;
+    left: 150px; */
+}

@@ -1,0 +1,15 @@
+* {
+    border: 1px solid red; /*largura > estilo > cor */
+    margin: 10px;
+    padding: 5px;
+}
+
+h2 {
+    height: 50px;
+    
+    width: 100% - 30px;
+}
+
+li {
+    border-bottom-style: dotted;
+}
