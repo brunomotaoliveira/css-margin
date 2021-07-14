@@ -98,6 +98,30 @@
                 <input type="submit" value="Reset" class="btn btn-outline-warning float-right">
             </div>
         </form>
+
+        <div class="container">
+
+            <h3>Modal Fading</h3>
+            <p>Ao clicar no botão o modal aparece sua e depois de clicar no botão fechar, vai fechar suavemente.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pizzariaModal">Abrir Modal</button>
+
+            <div class="modal" id="pizzariaModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Título Modal</h4>
+                            <button type="button" class="closer" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Parágrafo da body</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fecharr</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
