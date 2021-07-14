@@ -13,7 +13,49 @@
 </head>
 
 <body>
-    <br>
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapseNavBar">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Peça Online</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop_cardapio" data-toggle="dropdown">Cardápio</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Pizza</a>
+                        <a class="dropdown-item" href="#">Lasanha</a>
+                        <a class="dropdown-item" href="#">Macarronada</a>
+                        <a class="dropdown-item" href="#">Sorvete</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Lojas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Acompanhe seu pedido</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Contatos</a>
+                </li>
+
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="text" placeholder="buscar">
+                    <button class="btn btn-sucess" type="submit">Buscar</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- formulario -->
     <div class="container bg-light">
         <form>
             <label for="fname">Nome:</label>
